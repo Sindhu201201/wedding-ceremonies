@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0; 
+      padding: 0;
+      font-family: 'Kalnia', serif; 
+    }
+
+    .background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("bg.jpeg");
+      background-size: auto;
+      z-index: -100; /* Ensure it's behind other content */
+      opacity: 0.5;
+    }
+
+    .marr {
+      color: black; 
+      position: relative; 
+      z-index: 1; 
+      text-align: center;
+    }
+
+    .videos{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      cursor: pointer;
+    }
+   
+
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+    <div class="marr">
+      <h1>Ranbir Alia Wedding</h1>
+    </div>
+  <div class="videos">
+    <br><br>
+    <video controls  preload="auto" poster="tn1.jpeg" width="640" height="360" src="video1.mp4"></video>
+    <h4>Engagement</h4>
+    <br><br>
+    <video controls loop preload="auto" poster="tn2.jpeg" width="640" height="360"  src="video2.mp4"></video>
+    <h4>Prewedding</h4>
+    <br><br>
+    <video controls loop preload="auto" poster="tn3.jpeg" width="640" height="360"  src="video3.mp4"></video>
+    <h4>Groom ceremony</h4>
+    <br><br>
+    <video controls loop preload="auto" poster="tn4.jpeg" width="640" height="360"  src="video4.mp4"></video>
+    <h4>Bride ceremony</h4>
+    <br><br>
+    <video controls loop preload="auto" poster="tn5.jpeg" width="640" height="360"  src="video 5.mp4"></video>
+    <h4>Mehndi ceremony</h4>
+    <br><br>
+    <video controls loop preload="auto" poster="tn6.jpeg" width="640" height="360"  src="video6.mp4"></video>
+    <h4>Wedding</h4>
+    <br><br>
+    <video controls loop preload="auto" poster="tn7.jpeg" width="640" height="360"  src="video7.mp4"></video>
+    <h4>Reception</h4>
+    <br>
+  </div>
+  
+</body>
+</html>
